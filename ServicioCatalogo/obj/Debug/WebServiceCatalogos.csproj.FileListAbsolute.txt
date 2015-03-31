@@ -1,0 +1,12 @@
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.dll.config
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.dll
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.pdb
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Debug\WebServiceCatalogos.csprojResolveAssemblyReference.cache
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Debug\WebServiceCatalogos.dll
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Debug\WebServiceCatalogos.pdb
+C:\Users\hlopezh\Documents\Visual Studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.dll.config
+C:\Users\hlopezh\Documents\Visual Studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.dll
+C:\Users\hlopezh\Documents\Visual Studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.pdb
+C:\Users\hlopezh\Documents\Visual Studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Debug\WebServiceCatalogos.csprojResolveAssemblyReference.cache
+C:\Users\hlopezh\Documents\Visual Studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Debug\WebServiceCatalogos.dll
+C:\Users\hlopezh\Documents\Visual Studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Debug\WebServiceCatalogos.pdb

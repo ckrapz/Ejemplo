@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Catálogo de Proyectos Primarios</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600"
+            rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="css/jAutochecklist.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/pages/dashboard.css" rel="stylesheet">
+    <link href="css/pages/reports.css" rel="stylesheet">
+	  <link href="css/jquery.percentageloader-0.1.css" rel="stylesheet">
+    <link href="css/jquery.raty.css" rel="stylesheet">
+    <link href="css/styletab.css" rel="stylesheet">
+        <link href="css/responsive-tabs.css" rel="stylesheet">
+
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container"> <!--<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
+                    class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </a>--><a class="brand" href="#">Catálogo de Proyectos Primarios</a>
+      <div class="nav-collapse">
+        <!--<ul class="nav pull-right">
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="icon-cog"></i> Account <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="javascript:;">Settings</a></li>
+              <li><a href="javascript:;">Help</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                            class="icon-user"></i> EGrappler.com <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="javascript:;">Profile</a></li>
+              <li><a href="javascript:;">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-search pull-right">
+          <input type="text" class="search-query" placeholder="Search">
+        </form>-->
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+    <!-- /container --> 
+  </div>
+  <!-- /navbar-inner --> 
+</div>
+<!-- /navbar -->
+<div class="subnavbar">
+  <!--<div class="subnavbar-inner">
+    <div class="container">
+      <ul class="mainnav">
+        <li class="active"><a href="index.html"><i class="icon-dashboard"></i><span >Inicio</span> </a> </li>
+        <li><a href="guia.html"><i class="icon-facetime-video"></i><span>Ayuda</span> </a></li>
+      </ul>
+    </div>
+    <!-- /container --> 
+  <!--</div>
+  <!-- /subnavbar-inner --> 
+</div>
+<!-- /subnavbar -->
+<div class="main">
+  <div class="main-inner">
+    <div class="container">
+      <div class="row">
+		  
+        <div class="span8">
+			
+          <div class="widget widget-table action-table" id="main-content">
+          <div id="indicadores">
+          
+
+            <div class="widget-header"> <i class="icon-tasks"></i>
+              <h3>Indicadores <span id="widget-header-title"></span></h3>
+            </div>
+            <div id="tabs">
+                      <ul>           
+              <li><a href="#tabs-1">Indicadores</a></li>
+              <li><a href="#tabs-2">Nuevos indicadores</a></li>
+          </ul>
+          
+            <!-- /widget-header -->
+            <div id="tabs-1">
+            <div class="widget-content">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th id="indicador-left-title">Etapas de Proyectos</th>
+                        <th id="indicador-right-title">Nacional</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="stats-box-title"><span id="indicador1-title">Terminado</span></div>
+							<div class="stats-box-all-info"><span id="indicador1" style="cursor:pointer;"></span>
+              </div>
+                </td>
+                        <td>
+                            <div class="stats-box-title"><span id="indicador2-title"></span></div>
+							<div class="stats-box-all-info"><span id="indicador2" style="cursor:pointer;"></span></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="stats-box-title"><span id="indicador3-title">Inversión</span></div>
+							<div class="stats-box-all-info"><span id="indicador3" style="cursor:pointer;"></span></div>
+                        </td>
+                        <td>
+                            <div class="stats-box-title"><span id="indicador4-title"></span></div>
+							<div class="stats-box-all-info"><span id="indicador4" style="cursor:pointer;"></span></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="stats-box-title"><span id="indicador5-title">Planeación/preinversión</span></div>
+							<div class="stats-box-all-info"><span id="indicador5" style="cursor:pointer;"></span></div>
+                        </td>
+                        <td>
+                            <div class="stats-box-title"><span id="indicador6-title"></span></div>
+							<div class="stats-box-all-info"><span id="indicador6" style="cursor:pointer;"></span></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table></div>
+            </div>
+            <div id="tabs-2">prueba</div>
+            </div>
+            </div> <!-- indicadores -->
+          </div>
+          <!-- /widget -->
+        </div>
+        <!-- /span6 -->
+        
+        <div class="span4">
+          <div class="widget" id="widget-1">
+          <div id="tablas">
+            <div class="widget-header" id="titulo-tablas"> <i class="icon-table"></i>
+              <h3>Tablas <span id="widget-header-title"></span></h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content" id="tabla-content">
+              <iframe border="0" style="border:0px;" src="" width="100%" scrolling="no" id="iframeTabla"></iframe>
+            </div>
+            <!-- /widget-content --> 
+            </div>
+          </div>
+          <!-- /widget -->
+          
+          <div class="widget" id="widget-2">
+          <div id="grafica">
+            <div class="widget-header" id="titulo-grafica"> <i class="icon-bar-chart"></i>
+              <h3>Gráfica <span id="widget-header-title"></span></h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content" id="graph-content">
+                <iframe border="0" style="border:0px;" src="" width="100%" scrolling="no" id="iframeGrafica"></iframe>
+              <!-- /area-chart --> 
+            </div>
+            <!-- /widget-content --> 
+            </div>
+          </div>
+          <!-- /widget -->
+          
+          <div class="widget" id="widget-3">
+          <div id="mapa">
+            <div class="widget-header" id="titulo-mapa"> <i class="icon-map-marker"></i>
+              <h3>Mapa <span id="widget-header-title"></span></h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <div id="map_canvas" class="map_canvas-widget"></div>
+            </div>
+            <!-- /widget-content --> 
+            </div>
+          </div>
+          <!-- /widget --> 
+             
+        </div>
+        <!-- /span6 --> 
+      </div>
+      <!-- /row --> 
+    </div>
+    <!-- /container --> 
+  </div>
+  <!-- /main-inner --> 
+</div>
+
+<!-- Modal -->
+<a href="#myModal" role="button" class="btn" data-toggle="modal" style="display:none;" id="boton">Modal</a>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	<h3 id="myModalLabel">Titulo Ventana</h3>
+  </div>
+  <div class="modal-body">
+	<p>bla bla bla…</p>
+  </div>
+  <div class="modal-footer">
+	<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+	<!--<button class="btn btn-primary">Save changes</button>-->
+  </div>
+</div>
+
+<!-- Modal Fases-->
+<a href="#modalFases" role="button" class="btn" data-toggle="modal" style="display:none;" id="botonFases">Modal</a>
+
+<div id="modalFases" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	<h3 id="titulo-Modal">Seleccione o Escriba una Fase de Proyecto</h3>
+  </div>
+  <div class="modal-body">
+	<select id="fasesProyecto"></select>
+  </div>
+  <div class="modal-footer">
+	<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+	<!--<button class="btn btn-primary">Save changes</button>-->
+  </div>
+</div>
+
+<!-- Modal Filtros-->
+
+<!--<a href="#modalFiltros" role="button" class="btn" data-toggle="modal" style="display:none;" id="botonModalFiltros">Modal</a>
+<div id="modalFiltros" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	<h3 id="H1">Seleccione un Filtro</h3>
+  </div>
+  <div class="modal-body" id="modal-body">
+    <div id="select1-p"></div>
+    <p id="subtipo-p"></p>
+	<p id="select2-p"></p>
+    <p id="select3-p"></p>
+  </div>
+  <div class="modal-footer">
+	<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+	<!--<button class="btn btn-primary">Save changes</button>--
+  </div>
+</div>-->
+
+<div id="modalFiltros">
+    <div id="select1-p"></div>
+    <p id="subtipo-p"></p>
+	<p id="select2-p"></p>
+    <p id="select3-p"></p>
+</div>
+
+
+<!-- legend gmaps -->
+<div id="legend"></div>
+
+<!-- /main -->
+
+
+<!-- Le javascript
+================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="js/jquery-1.7.2.min.js"></script> 
+<script src="js/jquery-ui.min.js"></script> 
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/excanvas.min.js"></script>  
+<script src="js/bootstrap.js"></script>
+
+<!-- js de webfocus-->
+<script src="http://201.116.60.29:8080/approot/primary_proj/js/jquery.nicescroll.min.js"></script>
+<!--<script src="http://201.116.60.29:8080/approot/primary_proj/js/fexClass.jq.js"></script>
+<script src="http://201.116.60.29:8080/approot/primary_proj/js/fexClass.js.js"></script>-->
+<script type="text/javascript" src="http://201.116.60.29:8080/approot/primary_proj/js/jquery.colorbox.js" charset="utf-8"></script>
+<!-- js de webfocus-->
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBdZAOsbCf9LmIB_G2ImEvBUPI2EW5fAog&sensor=false"></script>
+<script src="js/markerclusterer_compiled.js"></script>
+
+<script src="js/jAutochecklist.min.js"></script>
+
+<script src="js/jquery.knob.min.js"></script>
+<script src="js/circle-progress.js"></script>
+<script src="js/jquery.percentageloader-0.1.min.js"></script>
+
+
+<script src="js/jquery.cookie.js"></script>
+<script src="js/base.js"></script> 
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+<script src="js/jquery.raty.js"></script>
+<script src="js/jquery.responsiveTabs.min.js"></script>
+
+
+<script src="js/parametros.js"></script>
+<script src="js/utf8_decode.js"></script>
+<script src="js/WebService.js" charset="UTF-8"></script>
+<script src="js/cargaGrafica.js" charset="UTF-8"></script>
+<script src="js/cargarTabla.js" charset="UTF-8"></script>
+<script src="js/pintaMapa.js" charset="UTF-8"></script>
+<script src="js/exportarPDF.js"></script>
+
+
+<script src="js/index_.js" charset="UTF-8"></script>
+</body>
+</html>

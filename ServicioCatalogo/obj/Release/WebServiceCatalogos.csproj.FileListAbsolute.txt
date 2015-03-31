@@ -1,0 +1,5 @@
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.dll.config
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.dll
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\bin\WebServiceCatalogos.pdb
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Release\WebServiceCatalogos.dll
+c:\users\brramirez\documents\visual studio 2013\Projects\WebServiceCatalogos\WebServiceCatalogos\obj\Release\WebServiceCatalogos.pdb
